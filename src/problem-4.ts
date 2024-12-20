@@ -16,13 +16,15 @@ type Shape = Circle | Rectangle;
 
 function calculateShapeArea(shapeObj: Shape): number {
     if (shapeObj.shape === "circle") {
-        return Math.PI * shapeObj.radius ** 2;
+        const area = Math.PI * shapeObj.radius ** 2;
+        return area;
     }
     else if (shapeObj.shape === "rectangle") {
-        return shapeObj.height * shapeObj.width;
+        const area = shapeObj.height * shapeObj.width;
+        return area;
     }
     else {
-        throw new Error("Unknown shape type");
+        throw new Error("Invalid shape");
     }
 }
 
