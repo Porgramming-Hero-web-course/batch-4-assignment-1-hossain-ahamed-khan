@@ -9,5 +9,7 @@ function countWordOccurrences(sentence: string, word: string): number {
     return count;
 }
 
+
+
 // console.log(countWordOccurrences("TypeScript I love typescript typeScript", "typescript")) 
 

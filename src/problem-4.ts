@@ -28,6 +28,8 @@ function calculateShapeArea(shapeObj: Shape): number {
     }
 }
 
+
+
 // console.log(calculateShapeArea({ shape: "circle", radius: 5 }));
 // console.log(calculateShapeArea({
 //     shape: "rectangle",
